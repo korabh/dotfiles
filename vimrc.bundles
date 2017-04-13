@@ -48,6 +48,29 @@ Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 
+Plug 'Lokaltog/vim-powerline'
+Plug 'stephenmckinney/vim-solarized-powerline'
+Plug 'christoomey/vim-system-copy'
+Plug 'christoomey/vim-tmux-navigator'
+
+Plug 'altercation/vim-colors-solarized'
+Plug 'nanotech/jellybeans.vim'
+Plug 'jonathanfilip/vim-lucius'
+Plug 'croaky/vim-colors-github'
+Plug 'chriskempson/base16-vim'
+Plug 'cocopon/iceberg.vim'
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+Plug 'adlawson/vim-sorcerer'
+Plug 'jpalardy/vim-slime'
+
+Plug 'elixir-lang/vim-elixir'
+Plug 'slashmili/alchemist.vim'
+
+Plug 'tpope/vim-haml'
+
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif

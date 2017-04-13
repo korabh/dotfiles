@@ -11,6 +11,9 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+set background=dark
+set autoindent
+set relativenumber
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -154,3 +157,30 @@ set diffopt+=vertical
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+
+let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#branch#empty_message = ''
+let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_close_button = 0
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#left_sep = '|'
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+
+let g:airline_theme='lucius'
+
+let g:indentLine_color_term = 239
+let g:indentLine_char = '¦'
+
+let g:ruby_indent_access_modifier_style = 'outdent'
+let ruby_operators = 1
+
+set guifont=Droid\ Sans\ Mono\ 12
+" let g:seoul256_background = 236
+colo iceberg
+
+let g:slime_target = 'tmux'
+
+set clipboard=unnamed
