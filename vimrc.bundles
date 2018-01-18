@@ -57,7 +57,6 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'nanotech/jellybeans.vim'
 Plug 'jonathanfilip/vim-lucius'
 Plug 'croaky/vim-colors-github'
-Plug 'chriskempson/base16-vim'
 Plug 'cocopon/iceberg.vim'
 
 Plug 'vim-airline/vim-airline'
